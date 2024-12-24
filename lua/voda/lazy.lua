@@ -53,9 +53,18 @@ require("lazy").setup({
         -- this is equalent to setup({}) function
     },
 
-    -- vim-airline
-    {"vim-airline/vim-airline"},
-    {"vim-airline/vim-airline-themes"},
-
+    {
+        'nvim-lualine/lualine.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' }
+    },
+    {
+        'numToStr/Comment.nvim',
+        opts = {}
+    },
+    {
+        "ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        dependencies = { "nvim-lua/plenary.nvim" }
+    }
 
 })
