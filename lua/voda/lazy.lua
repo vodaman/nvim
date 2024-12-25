@@ -61,10 +61,5 @@ require("lazy").setup({
         'numToStr/Comment.nvim',
         opts = {}
     },
-    {
-        "ThePrimeagen/harpoon",
-        branch = "harpoon2",
-        dependencies = { "nvim-lua/plenary.nvim" }
-    }
 
 })
