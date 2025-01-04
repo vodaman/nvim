@@ -13,14 +13,12 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 
-    -- {
-    --     "folke/tokyonight.nvim",
-    --     lazy = false,
-    --     priority = 1000,
-    --     opts = {},
-    -- },
-
-    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    {
+        "folke/tokyonight.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    },
 
     {
         'nvim-telescope/telescope.nvim', tag = '0.1.6',

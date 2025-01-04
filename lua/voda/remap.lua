@@ -12,3 +12,5 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("n", "<leader><leader>", vim.cmd.noh)
 
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
+
+vim.keymap.set("n", "<C-n>", vim.cmd.tabnew)

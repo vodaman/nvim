@@ -23,5 +23,4 @@ vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
 
-
-
+vim.cmd("set showtabline=2")
