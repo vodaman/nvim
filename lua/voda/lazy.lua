@@ -21,6 +21,14 @@ require("lazy").setup({
     },
 
     {
+        "sainnhe/everforest",
+        lazy = false,
+        priority = 1000
+    },
+
+    { "EdenEast/nightfox.nvim" },
+
+    {
         'nvim-telescope/telescope.nvim', tag = '0.1.6',
         dependencies = { 'nvim-lua/plenary.nvim' }
     },
@@ -43,7 +51,7 @@ require("lazy").setup({
         {'L3MON4D3/LuaSnip'},
     },
 
-    -- autotag AND autoclose
+    -- autotag and autoclose
     {"windwp/nvim-ts-autotag"},
     {
         'windwp/nvim-autopairs',
